@@ -5,10 +5,6 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/**
- * @author yzs
- * @create 2020-07-26 14:41
- */
 public interface BookMapper {
     //增加一个Book
     int addBook(Book book);
