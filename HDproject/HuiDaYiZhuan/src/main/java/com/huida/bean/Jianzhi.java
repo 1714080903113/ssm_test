@@ -1,7 +1,7 @@
 package com.huida.bean;
 
 import java.util.Date;
-
+//兼职bean
 public class Jianzhi {
     private Integer JianzhiID;
     private String openID;
