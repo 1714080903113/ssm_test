@@ -13,10 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.jws.WebParam;
 import java.util.List;
 
-/**
- * @author yzs
- * @create 2020-08-03 16:53
- */
 @Controller
 @RequestMapping("/book")
 public class BookController {
