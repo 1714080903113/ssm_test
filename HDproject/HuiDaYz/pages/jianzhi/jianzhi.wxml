@@ -1,0 +1,5 @@
+<view class="container">  
+  <view class="add-wrap" bindtap="issueJianzhi">
+    <image src="../../images/add.png"></image>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--日志-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    
+    <!--别名配置-->
+    <typeAliases>
+        <package name="com.ssm.pojo"/>
+    </typeAliases>
+
+    <!--分页管理,配置拦截器-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 使用MySQL方言的分页 -->
+            <property name="helperDialect" value="mysql"/><!--如果使用mysql，这里value为mysql-->
+            <!--分页合理化参数-->
+            <property name="pageSizeZero" value="true"/>
+        </plugin>
+    </plugins>
+
+    <!--注册mapper-->
+    <mappers>
+        <mapper class="com.ssm.dao.BookMapper"/>
+    </mappers>
+</configuration>
