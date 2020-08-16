@@ -7,10 +7,7 @@ import com.ssm.pojo.Book;
 
 import java.util.List;
 
-/**
- * @author yzs
- * @create 2020-07-26 14:59
- */
+
 public class BookServiceImpl implements BookService {
     private BookMapper bookMapper;
 
