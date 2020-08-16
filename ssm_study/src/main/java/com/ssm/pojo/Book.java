@@ -2,11 +2,6 @@ package com.ssm.pojo;
 
 import lombok.*;
 
-/**
- * @author yzs
- * @create 2020-07-26 14:34
- */
-
 public class Book {
     private Integer bookID;
     private String bookName;
