@@ -2,7 +2,7 @@ package com.huida.bean;
 
 import java.util.Date;
 import java.util.List;
-
+//校园动态
 public class Scstate {
     private Integer ScstateID;
     private String openID;
